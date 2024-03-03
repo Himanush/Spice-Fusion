@@ -1,0 +1,33 @@
+<-- Why i used CSS variables or Custom properties -->
+Css variables or custom properties allows you to reuse values throughout your stylesheet.
+We can define global variables that can be used throughout the website start with -- followed by the name (EX: --your-name:) and can use any valid css value.
+EX- 
+    :root{
+        --text-color:blue;
+    }
+
+    body{
+        color:var(--text-color,pink);   
+    }                          //pink is fallback value
+    We can also provide a fallback value to be extra safe incase the text-color is undefined or invalid
+
+<--Favicon-->
+Favicon is the small icon that is displayed on the left side of page title on the browser tab.
+
+<-- style-guide.md-->
+A .md file is a file extension built on light weight mark-up language
+used to create plain-text documents that contain no other elements.
+It helps the developers to easily format the text for the web.
+
+<--Preload image-->
+This technique is used to improve the performance of the webpages by loading images in advance before the user needs them.
+This can make the page seem to load faster and improve the overall user experience.
+
+<-- ionicon -->
+The ion-icon component is a simple component that can display any icon from the ionicons set or custom svg.
+it's available through the ionicons library,which comes pre-packaged by default with all iconic framework applications.
+
+<-- :root selector in css -->
+The root selector matches the documents root element.In HTML the root element is always the html element.
+:root element represents the <html> element and it defines the whole HTML document.
+

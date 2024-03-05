@@ -31,3 +31,6 @@ it's available through the ionicons library,which comes pre-packaged by default 
 The root selector matches the documents root element.In HTML the root element is always the html element.
 :root element represents the <html> element and it defines the whole HTML document.
 
+<-- use strict in JS -->
+JavaScript's strict mode enforces stricter parsing and error handling on the code at runtime.
+It also helps you write cleaner code and catch errors and bugs that might otherwise go unnoticed.
